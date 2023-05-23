@@ -26,5 +26,5 @@
 module com.slytechs.jnet.systable {
 	exports com.slytechs.jnet.systable;
 
-	requires com.slytechs.jnet.runtime;
+	requires com.slytechs.protocol;
 }

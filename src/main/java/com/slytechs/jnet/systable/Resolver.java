@@ -24,7 +24,7 @@ import java.util.concurrent.TimeUnit;
 import java.util.concurrent.TimeoutException;
 import java.util.function.Supplier;
 
-import com.slytechs.jnet.runtime.util.NotFound;
+import com.slytechs.protocol.runtime.NotFound;
 
 /**
  * Inteface providing various asynchronous resolution services such as DNS or
@@ -49,8 +49,7 @@ public interface Resolver<T> {
 	<R> Future<R> resolve(T t);
 
 	@SuppressWarnings("unchecked")
-	default <R> R resolve(T t, long timeout, TimeUnit unit) throws InterruptedException,
-			TimeoutException {
+	default <R> R resolve(T t, long timeout, TimeUnit unit) throws InterruptedException, TimeoutException {
 		try {
 			return (R) resolve(t).get(timeout, unit);
 		} catch (ExecutionException e) {

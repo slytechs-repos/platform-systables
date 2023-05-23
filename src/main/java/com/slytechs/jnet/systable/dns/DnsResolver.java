@@ -20,8 +20,8 @@ package com.slytechs.jnet.systable.dns;
 import java.util.concurrent.Future;
 import java.util.function.Supplier;
 
-import com.slytechs.jnet.runtime.util.NotFound;
 import com.slytechs.jnet.systable.Resolver;
+import com.slytechs.protocol.runtime.NotFound;
 
 /**
  * @author Sly Technologies Inc

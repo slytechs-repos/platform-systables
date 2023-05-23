@@ -20,8 +20,8 @@ package com.slytechs.jnet.systable.dns;
 import java.nio.file.Path;
 import java.util.Optional;
 
-import com.slytechs.jnet.runtime.util.NotFound;
 import com.slytechs.jnet.systable.SystemTable;
+import com.slytechs.protocol.runtime.NotFound;
 
 /**
  * @author Sly Technologies Inc
