@@ -15,12 +15,12 @@
  * License for the specific language governing permissions and limitations under
  * the License.
  */
-package com.slytechs.jnet.systable;
+package com.slytechs.jnet.jnetruntime.systable;
 
 import java.nio.file.Path;
 import java.util.Optional;
 
-import com.slytechs.protocol.runtime.NotFound;
+import com.slytechs.jnet.jnetruntime.NotFound;
 
 /**
  * Interface providing access to various platform dependent system tables. This

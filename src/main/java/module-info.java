@@ -23,8 +23,8 @@
  * @author mark
  * @author repos@slytechs.com
  */
-module com.slytechs.jnet.systable {
-	exports com.slytechs.jnet.systable;
-
-	requires com.slytechs.protocol;
+module com.slytechs.jnet.jnetruntime.systable {
+	exports com.slytechs.jnet.jnetruntime.systable;
+	
+	requires com.slytechs.jnet.jnetruntime;
 }

@@ -15,13 +15,13 @@
  * License for the specific language governing permissions and limitations under
  * the License.
  */
-package com.slytechs.jnet.systable.dns;
+package com.slytechs.jnet.jnetruntime.systable.dns;
 
 import java.util.concurrent.Future;
 import java.util.function.Supplier;
 
-import com.slytechs.jnet.systable.Resolver;
-import com.slytechs.protocol.runtime.NotFound;
+import com.slytechs.jnet.jnetruntime.NotFound;
+import com.slytechs.jnet.jnetruntime.systable.Resolver;
 
 /**
  * @author Sly Technologies Inc
@@ -39,7 +39,7 @@ public class DnsResolver implements Resolver<Object> {
 	}
 
 	/**
-	 * @see com.slytechs.jnet.systable.Resolver#clearCache()
+	 * @see com.slytechs.jnet.jnetruntime.systable.Resolver#clearCache()
 	 */
 	@Override
 	public void clearCache() {
@@ -47,7 +47,7 @@ public class DnsResolver implements Resolver<Object> {
 	}
 
 	/**
-	 * @see com.slytechs.jnet.systable.Resolver#isCached(java.lang.Object)
+	 * @see com.slytechs.jnet.jnetruntime.systable.Resolver#isCached(java.lang.Object)
 	 */
 	@Override
 	public boolean isCached(Object t) {
@@ -55,7 +55,7 @@ public class DnsResolver implements Resolver<Object> {
 	}
 
 	/**
-	 * @see com.slytechs.jnet.systable.Resolver#resolveCachedOrNotFound(java.lang.Object)
+	 * @see com.slytechs.jnet.jnetruntime.systable.Resolver#resolveCachedOrNotFound(java.lang.Object)
 	 */
 	@Override
 	public <R> R resolveCachedOrNotFound(Object t) throws NotFound {
@@ -63,7 +63,7 @@ public class DnsResolver implements Resolver<Object> {
 	}
 
 	/**
-	 * @see com.slytechs.jnet.systable.Resolver#resolveCachedOrThrow(java.lang.Object,
+	 * @see com.slytechs.jnet.jnetruntime.systable.Resolver#resolveCachedOrThrow(java.lang.Object,
 	 *      java.util.function.Supplier)
 	 */
 	@Override
@@ -72,7 +72,7 @@ public class DnsResolver implements Resolver<Object> {
 	}
 
 	/**
-	 * @see com.slytechs.jnet.systable.Resolver#resolveCachedOrElse(java.lang.Object,
+	 * @see com.slytechs.jnet.jnetruntime.systable.Resolver#resolveCachedOrElse(java.lang.Object,
 	 *      java.lang.Object)
 	 */
 	@Override
@@ -81,7 +81,7 @@ public class DnsResolver implements Resolver<Object> {
 	}
 
 	/**
-	 * @see com.slytechs.jnet.systable.Resolver#resolve(java.lang.Object)
+	 * @see com.slytechs.jnet.jnetruntime.systable.Resolver#resolve(java.lang.Object)
 	 */
 	@Override
 	public <R> Future<R> resolve(Object t) {
