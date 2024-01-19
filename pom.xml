@@ -15,7 +15,7 @@
 		<dependency>
 			<groupId>com.slytechs.jnet.jnetruntime</groupId>
 			<artifactId>jnetruntime-api</artifactId>
-			<version>${jnetruntime-sdk.version}</version>
+			<version>${parent.version}</version>
 		</dependency>
 	</dependencies>
 </project>
