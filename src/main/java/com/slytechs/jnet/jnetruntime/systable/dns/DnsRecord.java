@@ -18,8 +18,6 @@
 package com.slytechs.jnet.jnetruntime.systable.dns;
 
 /**
- * @author Sly Technologies Inc
- * @author repos@slytechs.com
  * @author Mark Bednarczyk
  *
  */

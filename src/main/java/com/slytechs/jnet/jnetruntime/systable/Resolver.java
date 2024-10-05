@@ -31,8 +31,6 @@ import com.slytechs.jnet.jnetruntime.NotFound;
  * name resolution, etc. The implementation uses native services to perform the
  * resolutions.
  *
- * @author Sly Technologies Inc
- * @author repos@slytechs.com
  * @author Mark Bednarczyk
  * @param <T> the generic query object type
  */

@@ -24,8 +24,6 @@ import com.slytechs.jnet.jnetruntime.NotFound;
 import com.slytechs.jnet.jnetruntime.systable.SystemTable;
 
 /**
- * @author Sly Technologies Inc
- * @author repos@slytechs.com
  * @author Mark Bednarczyk
  *
  */

@@ -27,8 +27,6 @@ import com.slytechs.jnet.jnetruntime.NotFound;
  * is useful when writing network code and access to arp, routing, etc are
  * needed.
  * 
- * @author Sly Technologies Inc
- * @author repos@slytechs.com
  * @author Mark Bednarczyk
  */
 public interface SystemTable<T> {
