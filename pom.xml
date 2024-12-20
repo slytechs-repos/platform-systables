@@ -3,32 +3,20 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
-		<groupId>com.slytechs.jnet.jnetruntime</groupId>
-		<artifactId>jnetruntime-sdk-parent</artifactId>
+		<groupId>com.slytechs.jnet.platform</groupId>
+		<artifactId>platform-sdk-parent</artifactId>
 		<version>0.1.0-SNAPSHOT</version>
+		<relativePath>../jnet-platform</relativePath>
 	</parent>
-	<artifactId>jnetruntime-systable</artifactId>
-	<name>jNetRuntime Systable</name>
+	<artifactId>platform-systable</artifactId>
+	<name>jNet Platform Systable</name>
 	<description>Access to system tables</description>
 
 	<dependencies>
 		<dependency>
-			<groupId>com.slytechs.jnet.jnetruntime</groupId>
-			<artifactId>jnetruntime-api</artifactId>
-			<version>${jnetruntime.version}</version>
+			<groupId>com.slytechs.jnet.platform</groupId>
+			<artifactId>platform-api</artifactId>
+			<version>${platform.version}</version>
 		</dependency>
 	</dependencies>
-
-	<scm>
-		<connection>
-			scm:git:git://github.com/slytechs-repos/jnetruntime-api.git</connection>
-		<developerConnection>
-			scm:git:ssh:git://github.com/slytechs-repos/jnetruntime-api.git</developerConnection>
-		<url>https://github.com/slytechs-repos/jnetruntime-api</url>
-	</scm>
-
-	<issueManagement>
-		<system>Github Issue Tracking</system>
-		<url>https://github.com/slytechs-repos/jnetruntime-api/issues</url>
-	</issueManagement>
 </project>

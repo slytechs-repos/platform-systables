@@ -15,7 +15,7 @@
  * License for the specific language governing permissions and limitations under
  * the License.
  */
-package com.slytechs.jnet.jnetruntime.systable.dns;
+package com.slytechs.jnet.platform.systables.dns;
 
 /**
  * @author Mark Bednarczyk

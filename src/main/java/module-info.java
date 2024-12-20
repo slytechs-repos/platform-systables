@@ -22,8 +22,8 @@
  * @author Sly Technologies
  * @author mark
  */
-module com.slytechs.jnet.jnetruntime.systable {
-	exports com.slytechs.jnet.jnetruntime.systable;
-	
-	requires com.slytechs.jnet.jnetruntime;
+module com.slytechs.jnet.platform.systables {
+	exports com.slytechs.jnet.platform.systables;
+
+	requires com.slytechs.jnet.platform.api;
 }

@@ -15,13 +15,13 @@
  * License for the specific language governing permissions and limitations under
  * the License.
  */
-package com.slytechs.jnet.jnetruntime.systable.dns;
+package com.slytechs.jnet.platform.systables.dns;
 
 import java.nio.file.Path;
 import java.util.Optional;
 
-import com.slytechs.jnet.jnetruntime.NotFound;
-import com.slytechs.jnet.jnetruntime.systable.SystemTable;
+import com.slytechs.jnet.platform.api.NotFound;
+import com.slytechs.jnet.platform.systables.SystemTable;
 
 /**
  * @author Mark Bednarczyk
@@ -37,7 +37,7 @@ public class DnsTable implements SystemTable<DnsRecord> {
 	}
 
 	/**
-	 * @see com.slytechs.jnet.jnetruntime.systable.SystemTable#name()
+	 * @see com.slytechs.jnet.platform.api.systable.SystemTable#name()
 	 */
 	@Override
 	public Optional<String> name() {
@@ -45,7 +45,7 @@ public class DnsTable implements SystemTable<DnsRecord> {
 	}
 
 	/**
-	 * @see com.slytechs.jnet.jnetruntime.systable.SystemTable#description()
+	 * @see com.slytechs.jnet.platform.api.systable.SystemTable#description()
 	 */
 	@Override
 	public Optional<String> description() {
@@ -53,7 +53,7 @@ public class DnsTable implements SystemTable<DnsRecord> {
 	}
 
 	/**
-	 * @see com.slytechs.jnet.jnetruntime.systable.SystemTable#path()
+	 * @see com.slytechs.jnet.platform.api.systable.SystemTable#path()
 	 */
 	@Override
 	public Optional<Path> path() {
@@ -61,7 +61,7 @@ public class DnsTable implements SystemTable<DnsRecord> {
 	}
 
 	/**
-	 * @see com.slytechs.jnet.jnetruntime.systable.SystemTable#contains(java.lang.Object)
+	 * @see com.slytechs.jnet.platform.api.systable.SystemTable#contains(java.lang.Object)
 	 */
 	@Override
 	public boolean contains(DnsRecord t) {
@@ -69,7 +69,7 @@ public class DnsTable implements SystemTable<DnsRecord> {
 	}
 
 	/**
-	 * @see com.slytechs.jnet.jnetruntime.systable.SystemTable#find()
+	 * @see com.slytechs.jnet.platform.api.systable.SystemTable#find()
 	 */
 	@Override
 	public Optional<DnsRecord> find() {
@@ -77,7 +77,7 @@ public class DnsTable implements SystemTable<DnsRecord> {
 	}
 
 	/**
-	 * @see com.slytechs.jnet.jnetruntime.systable.SystemTable#get()
+	 * @see com.slytechs.jnet.platform.api.systable.SystemTable#get()
 	 */
 	@Override
 	public DnsRecord get() throws NotFound {
@@ -85,7 +85,7 @@ public class DnsTable implements SystemTable<DnsRecord> {
 	}
 
 	/**
-	 * @see com.slytechs.jnet.jnetruntime.systable.SystemTable#add(java.lang.Object)
+	 * @see com.slytechs.jnet.platform.api.systable.SystemTable#add(java.lang.Object)
 	 */
 	@Override
 	public boolean add(DnsRecord t) {
@@ -93,7 +93,7 @@ public class DnsTable implements SystemTable<DnsRecord> {
 	}
 
 	/**
-	 * @see com.slytechs.jnet.jnetruntime.systable.SystemTable#set(java.lang.Object)
+	 * @see com.slytechs.jnet.platform.api.systable.SystemTable#set(java.lang.Object)
 	 */
 	@Override
 	public boolean set(DnsRecord t) {
@@ -101,7 +101,7 @@ public class DnsTable implements SystemTable<DnsRecord> {
 	}
 
 	/**
-	 * @see com.slytechs.jnet.jnetruntime.systable.SystemTable#remove(java.lang.Object)
+	 * @see com.slytechs.jnet.platform.api.systable.SystemTable#remove(java.lang.Object)
 	 */
 	@Override
 	public boolean remove(DnsRecord t) throws NotFound {
@@ -109,7 +109,7 @@ public class DnsTable implements SystemTable<DnsRecord> {
 	}
 
 	/**
-	 * @see com.slytechs.jnet.jnetruntime.systable.SystemTable#disable(java.lang.Object)
+	 * @see com.slytechs.jnet.platform.api.systable.SystemTable#disable(java.lang.Object)
 	 */
 	@Override
 	public boolean disable(DnsRecord t) throws NotFound {

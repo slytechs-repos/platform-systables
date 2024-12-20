@@ -16,7 +16,7 @@
  * the License.
  */
 
-package com.slytechs.jnet.jnetruntime.systable;
+package com.slytechs.jnet.platform.systables;
 
 import java.util.concurrent.ExecutionException;
 import java.util.concurrent.Future;
@@ -24,7 +24,7 @@ import java.util.concurrent.TimeUnit;
 import java.util.concurrent.TimeoutException;
 import java.util.function.Supplier;
 
-import com.slytechs.jnet.jnetruntime.NotFound;
+import com.slytechs.jnet.platform.api.NotFound;
 
 /**
  * Inteface providing various asynchronous resolution services such as DNS or
