@@ -20,7 +20,7 @@ package com.slytechs.jnet.platform.systables;
 import java.nio.file.Path;
 import java.util.Optional;
 
-import com.slytechs.jnet.platform.api.NotFound;
+import com.slytechs.jnet.platform.api.common.NotFound;
 
 /**
  * Interface providing access to various platform dependent system tables. This

@@ -20,7 +20,7 @@ package com.slytechs.jnet.platform.systables.dns;
 import java.util.concurrent.Future;
 import java.util.function.Supplier;
 
-import com.slytechs.jnet.platform.api.NotFound;
+import com.slytechs.jnet.platform.api.common.NotFound;
 import com.slytechs.jnet.platform.systables.Resolver;
 
 /**

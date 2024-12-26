@@ -20,7 +20,7 @@ package com.slytechs.jnet.platform.systables.dns;
 import java.nio.file.Path;
 import java.util.Optional;
 
-import com.slytechs.jnet.platform.api.NotFound;
+import com.slytechs.jnet.platform.api.common.NotFound;
 import com.slytechs.jnet.platform.systables.SystemTable;
 
 /**
